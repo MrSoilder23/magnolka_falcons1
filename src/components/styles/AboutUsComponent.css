@@ -1,0 +1,59 @@
+.aboutUsComp {
+    padding: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+
+.aboutUsImg {
+    height: 23rem;
+    border-radius: 25px;
+}
+
+.rightSide {
+    width: 700px;
+}
+
+.rightSide h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+    color: #085A91;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+
+.rightSide h3 {
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+
+}
+
+.aboutBtnFrame {
+    display: flex;
+    margin-top: 40px;
+}
+
+.aboutButton {
+    font-size: 22px;
+    background-color: #085a91;
+    border-radius: 1.9em;
+    border-width: 0;
+    padding:0.6em 1.5em;
+    margin: 0 0.3em 0.3em 0;
+    text-align: center;
+    transition: ease-in 0.3s;
+}
+
+.aboutButton {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.aboutButton:hover {
+    background-color: #548CC7;
+}

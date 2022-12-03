@@ -1,0 +1,20 @@
+.heroSection {
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/dabloonCat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroSection h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
