@@ -1,0 +1,78 @@
+.ourRobotComp {
+    display: flex;
+    flex-direction: column;
+    background-color: #5a8fc8;
+    align-items: center;
+    background: linear-gradient(82deg, #085a91 60%, #DEA01E 60%);
+}
+
+.ourRobotComp h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 2.6rem;
+    color: #F1F1E6;
+    text-shadow: 0 0 1px #548cc7;
+}
+
+.robotCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+    margin: 30px;
+}
+
+.robotLeftSide {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.robotHeaders {
+    margin-top: 6rem;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.robotLeftSide h2 {
+    font-size: 2.4rem;
+    color: #F1F1E6;
+    text-shadow: 1px 1px #003365;
+
+    text-decoration: underline;
+    text-decoration-thickness: 11px;
+    text-decoration-color: #00B3FF;
+    text-underline-offset: -5px;
+    text-decoration-skip-ink: none;
+}
+
+.robotLeftSide h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.moreLink {
+    margin-top: 20px;
+    display: flex;
+}
+
+.moreLink h3 {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #F1F1E6;
+
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
+    text-decoration-color: #00B3FF;
+    text-underline-offset: -3px;
+    text-decoration-skip-ink: none;
+}
+
+.robotRightSide img {
+    height: 400px;
+}
