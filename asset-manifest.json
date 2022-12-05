@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/://MrSoilder23.github.io/MagnolkaFalcons/static/css/main.cadc4ad6.css",
+    "main.js": "/://MrSoilder23.github.io/MagnolkaFalcons/static/js/main.b1859632.js",
+    "static/js/787.a8d3448a.chunk.js": "/://MrSoilder23.github.io/MagnolkaFalcons/static/js/787.a8d3448a.chunk.js",
+    "static/media/kerfus.png": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/kerfus.4b9eadde5272e89d1f82.png",
+    "static/media/magnolkaPP2.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/magnolkaPP2.c3dbd8635bb9ba788d91e3edb6e70091.svg",
+    "static/media/happi.jpg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/happi.6f23c17aa939b9f8e8ce.jpg",
+    "static/media/icons8-github.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/icons8-github.2313f6066f27488414053abdb5325607.svg",
+    "index.html": "/://MrSoilder23.github.io/MagnolkaFalcons/index.html",
+    "static/media/rocket.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/rocket.60e68d767df99ec0bfa10d3c33b77b49.svg",
+    "static/media/travelPlanet.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/travelPlanet.4f47ede0356f45e2501c292ca95c26a8.svg",
+    "static/media/icons8-instagram.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/icons8-instagram.359d7d3f391888ab26c855bd50b5e657.svg",
+    "static/media/icons8-facebook.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/icons8-facebook.bf9a8309d218ec6f4e2da6a27707d994.svg",
+    "static/media/hourglass.svg": "/://MrSoilder23.github.io/MagnolkaFalcons/static/media/hourglass.458aef2d6947847a019fffe4c19dde97.svg",
+    "main.cadc4ad6.css.map": "/://MrSoilder23.github.io/MagnolkaFalcons/static/css/main.cadc4ad6.css.map",
+    "main.b1859632.js.map": "/://MrSoilder23.github.io/MagnolkaFalcons/static/js/main.b1859632.js.map",
+    "787.a8d3448a.chunk.js.map": "/://MrSoilder23.github.io/MagnolkaFalcons/static/js/787.a8d3448a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cadc4ad6.css",
+    "static/js/main.b1859632.js"
+  ]
+}
