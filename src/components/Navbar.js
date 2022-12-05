@@ -12,22 +12,22 @@ function Navbar() {
 
       <div className="navList">
         <li className='navItem'>
-          <Link to='/about'>
+          <Link to='/about' className='navBtn'>
             O nas
           </Link>
         </li>
         <li className='navItem'>
-          <Link to='/wsparcie'>
+          <Link to='/wsparcie' className='navBtn'>
             Wsparcie
           </Link>
         </li>
         <li className='navItem'>
-          <Link to='/roboty'>
+          <Link to='/roboty' className='navBtn'>
             Roboty
           </Link>
         </li>
         <li className='navItem'>
-          <Link to='/contact'>
+          <Link to='/contact' className='navBtn'>
             Kontakt
           </Link>
         </li>

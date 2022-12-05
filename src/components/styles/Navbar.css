@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #F1F1E6;
+    background-color: #fff;
     font-size: 1.7rem;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 999;
+    z-index: 10;
 }
 
 .logoImg {
@@ -15,7 +15,7 @@
     width: 4.8rem;
     object-fit: fill;
     display: flex;
-    background-color: #F1F1E6;
+    background-color: #fff;
 }
 
 .navList {

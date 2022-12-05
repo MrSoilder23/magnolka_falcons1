@@ -1,6 +1,6 @@
 .aboutUsComp {
     padding: 50px;
-    background-color: #F1F1E6;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,7 +52,7 @@
 
 .aboutButton {
     font-size: 1.4rem;
-    color: #F1F1E6;
+    color: #ffff;
 }
 
 .aboutButton:hover {

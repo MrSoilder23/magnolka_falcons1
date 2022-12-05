@@ -1,9 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function NewsCard() {
+function NewsCard(props) {
   return (
-    <div>
-        
+    <div className='newsCard'>
+      <div className="newsImg">
+        <Link to={props.link} >
+          <img src={props.path} alt="Zdjęcie nowości" />
+        </Link>
+      </div>
+
+      <div className="newsText">
+        <div>
+        <Link to={props.link}>
+          <h2>{props.header}</h2>
+        </Link>
+        </div>
+        <h3 className='newsDate'>{props.date}</h3>
+        <h3>{props.text}</h3>
+      </div>
     </div>
   )
 }

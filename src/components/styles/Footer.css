@@ -1,6 +1,36 @@
 .footer {
     height: 30rem;
-    background-color: beige;
+    background-color: #085a91;
 
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    padding-bottom: 20px;
+    color: #F1F1E6;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons img {
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #075183;
+    border-radius: 50px;
+    transition: ease-in 0.4s;
+}
+
+.icons img::after {
+    filter: invert(80%) sepia(26%) saturate(4217%) hue-rotate(351deg) brightness(94%) contrast(85%);
+}
+
+.icons img:hover {
+    background-color: #0097FA;
 }
