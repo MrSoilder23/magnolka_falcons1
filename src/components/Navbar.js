@@ -17,7 +17,7 @@ function Navbar() {
           </Link>
         </li>
         <li className='navItem'>
-          <Link to='/support'>
+          <Link to='/wsparcie'>
             Wsparcie
           </Link>
         </li>

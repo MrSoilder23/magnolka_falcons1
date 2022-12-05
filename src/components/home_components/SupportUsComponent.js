@@ -18,21 +18,21 @@ function SupportUsComponent() {
         </div>
         <div className="cardsList">
             <Cards 
-            link='/'
+            link='/wsparcie'
             path={hourglass}
-            header='Budujesz Przyszłość'
+            header='Buduj Przyszłość'
             text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempore possimus officiis eaque similique omnis alias impedit nobis, totam, minus fugiat id atque sapiente ducimus quibusdam! Voluptatum commodi quae amet.'
             />
 
             <Cards 
-            link='/'
+            link='/wsparcie'
             path={travel}
             header='Lorem Ipsum'
             text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempore possimus officiis eaque similique omnis alias impedit nobis, totam, minus fugiat id atque sapiente ducimus quibusdam! Voluptatum commodi quae amet.'
             />
 
             <Cards 
-            link='/'
+            link='/wsparcie'
             path={rocket}
             header='Benefity'
             text='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempore possimus officiis eaque similique omnis alias impedit nobis, totam, minus fugiat id atque sapiente ducimus quibusdam! Voluptatum commodi quae amet.'

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #fff;
+    background-color: #F1F1E6;
     font-size: 1.7rem;
     position: sticky;
     position: -webkit-sticky;
@@ -15,7 +15,7 @@
     width: 4.8rem;
     object-fit: fill;
     display: flex;
-    background-color: #fff;
+    background-color: #F1F1E6;
 }
 
 .navList {
