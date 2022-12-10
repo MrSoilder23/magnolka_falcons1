@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/magnolka_falcons1/static/css/main.a7ca3649.css",
+    "main.css": "/magnolka_falcons1/static/css/main.0ec63885.css",
     "main.js": "/magnolka_falcons1/static/js/main.3adb2494.js",
     "static/js/787.a8d3448a.chunk.js": "/magnolka_falcons1/static/js/787.a8d3448a.chunk.js",
     "static/media/kerfus.png": "/magnolka_falcons1/static/media/kerfus.4b9eadde5272e89d1f82.png",
@@ -14,12 +14,12 @@
     "static/media/icons8-facebook.svg": "/magnolka_falcons1/static/media/icons8-facebook.bf9a8309d218ec6f4e2da6a27707d994.svg",
     "static/media/hourglass.svg": "/magnolka_falcons1/static/media/hourglass.458aef2d6947847a019fffe4c19dde97.svg",
     "static/media/hamburgerIcon.svg": "/magnolka_falcons1/static/media/hamburgerIcon.cedde82dadab608e2c2f3aec97b7a976.svg",
-    "main.a7ca3649.css.map": "/magnolka_falcons1/static/css/main.a7ca3649.css.map",
+    "main.0ec63885.css.map": "/magnolka_falcons1/static/css/main.0ec63885.css.map",
     "main.3adb2494.js.map": "/magnolka_falcons1/static/js/main.3adb2494.js.map",
     "787.a8d3448a.chunk.js.map": "/magnolka_falcons1/static/js/787.a8d3448a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7ca3649.css",
+    "static/css/main.0ec63885.css",
     "static/js/main.3adb2494.js"
   ]
 }
