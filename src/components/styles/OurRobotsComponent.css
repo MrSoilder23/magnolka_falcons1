@@ -4,6 +4,7 @@
     background-color: #5a8fc8;
     align-items: center;
     background: linear-gradient(82deg, #085a91 60%, #DEA01E 60%);
+    padding-bottom: 50px;
 }
 
 .ourRobotComp h1 {
@@ -20,13 +21,14 @@
     justify-content: space-evenly;
     width: 100%;
 
-    margin: 30px;
 }
 
 .robotLeftSide {
     width: 700px;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .robotHeaders {
@@ -52,6 +54,7 @@
     font-weight: 500;
     font-size: 1.5rem;
     color: #fff;
+    padding-bottom: 20px;
 }
 
 .moreLink {
@@ -73,6 +76,24 @@
     text-decoration-skip-ink: none;
 }
 
+.robotRightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .robotRightSide img {
     height: 400px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .robotCard {
+        flex-direction: column-reverse;
+    }
+
+    .robotLeftSide {
+        width: 80%;
+    }
 }

@@ -20,6 +20,7 @@
 
 .navList {
     display: flex;
+    flex-direction: row;
 }
 
 .navItem {
@@ -30,4 +31,53 @@
 
 .navItem a {
     color: #000;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburgerButton {
+    border: none;
+    background-color: #fff;
+    padding-right: 20px;
+    
+}
+
+.hamburgerButton img {
+    filter: invert(21%) sepia(66%) saturate(3214%) hue-rotate(188deg) brightness(84%) contrast(94%);
+}
+
+.navItem {
+    display: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .navbar #close .navItem{
+        display: none;
+    }
+    
+    .navbar #open .navItem {
+        display: inherit;
+    }
+
+    .hamburger {
+        display: inherit;
+    }
+
+    .logoImg {
+        padding-left: 20px;
+    }
+
+    .navList {
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }

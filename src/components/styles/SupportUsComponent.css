@@ -3,7 +3,7 @@
     background-color: #fff;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 50px;
 }
 
 .whyUsSection {
@@ -29,6 +29,7 @@
 .cardsList {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .cardComp {
@@ -41,6 +42,10 @@
     
     margin: 20px;
     padding: 20px;
+
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #f2f2f2;
 
     transition: ease-out .3s;
 }
@@ -81,4 +86,20 @@
 
 .cardComp:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 800px) {
+
+    .cardsList {
+        flex-direction: column;
+    }
+
+    .cardComp {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cardComp:hover {
+        transform: scale(1);
+    }
 }

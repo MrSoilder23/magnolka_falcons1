@@ -58,3 +58,31 @@
 .aboutButton:hover {
     background-color: #548CC7;
 }
+
+@media only screen and (max-width: 800px) {
+    .aboutUsComp {
+        flex-direction: column;
+    }
+
+    .leftSide {
+        width: 100%;
+    }
+
+    .aboutUsImg {
+        height: 15rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .rightSide {
+        width: 90%;
+    }
+
+    .rightSide h2 {
+        font-size: 2rem;
+    }
+
+    .rightSide h3 {
+        font-size: 1.3rem;
+    }
+}
