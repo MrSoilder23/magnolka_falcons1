@@ -52,6 +52,10 @@
     font-style: italic;
 }
 
+.iconComp {
+    filter: invert(21%) sepia(66%) saturate(3214%) hue-rotate(188deg) brightness(84%) contrast(94%);
+}
+
 .newsText h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
