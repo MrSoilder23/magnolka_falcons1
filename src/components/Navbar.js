@@ -22,8 +22,8 @@ function Navbar() {
 
       <div className="navList" id={openLinks ? "open" : "close"}>
         <li className='navItem'>
-          <Link to='/about' className='navBtn'>
-            O nas
+          <Link to='/druzyna' className='navBtn'>
+            Drużyna
           </Link>
         </li>
         <li className='navItem'>
@@ -36,8 +36,13 @@ function Navbar() {
             Roboty
           </Link>
         </li>
+        <li className='navItem'>
+          <Link to='/wydarzenia' className='navBtn'>
+            Wydarzenia
+          </Link>
+        </li>
         <li className='navItem' >
-          <Link to='/contact' className='navBtn'>
+          <Link to='/kontakt' className='navBtn'>
             Kontakt
           </Link>
         </li>
