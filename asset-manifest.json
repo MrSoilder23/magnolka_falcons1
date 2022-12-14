@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/magnolka_falcons1/static/css/main.e8ec7aa4.css",
-    "main.js": "/magnolka_falcons1/static/js/main.0aef83eb.js",
+    "main.css": "/magnolka_falcons1/static/css/main.62f65d66.css",
+    "main.js": "/magnolka_falcons1/static/js/main.d9ad8ef5.js",
     "static/js/787.a8d3448a.chunk.js": "/magnolka_falcons1/static/js/787.a8d3448a.chunk.js",
     "static/media/kerfus.png": "/magnolka_falcons1/static/media/kerfus.4b9eadde5272e89d1f82.png",
     "static/media/magnolkaPP2.svg": "/magnolka_falcons1/static/media/magnolkaPP2.c3dbd8635bb9ba788d91e3edb6e70091.svg",
@@ -16,12 +16,12 @@
     "static/media/icons8-facebook.svg": "/magnolka_falcons1/static/media/icons8-facebook.bf9a8309d218ec6f4e2da6a27707d994.svg",
     "static/media/hourglass.svg": "/magnolka_falcons1/static/media/hourglass.458aef2d6947847a019fffe4c19dde97.svg",
     "static/media/hamburgerIcon.svg": "/magnolka_falcons1/static/media/hamburgerIcon.cedde82dadab608e2c2f3aec97b7a976.svg",
-    "main.e8ec7aa4.css.map": "/magnolka_falcons1/static/css/main.e8ec7aa4.css.map",
-    "main.0aef83eb.js.map": "/magnolka_falcons1/static/js/main.0aef83eb.js.map",
+    "main.62f65d66.css.map": "/magnolka_falcons1/static/css/main.62f65d66.css.map",
+    "main.d9ad8ef5.js.map": "/magnolka_falcons1/static/js/main.d9ad8ef5.js.map",
     "787.a8d3448a.chunk.js.map": "/magnolka_falcons1/static/js/787.a8d3448a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8ec7aa4.css",
-    "static/js/main.0aef83eb.js"
+    "static/css/main.62f65d66.css",
+    "static/js/main.d9ad8ef5.js"
   ]
 }
