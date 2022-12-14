@@ -3,7 +3,10 @@
     flex-direction: column;
     background-color: #5a8fc8;
     align-items: center;
-    background: linear-gradient(82deg, #085a91 60%, #DEA01E 60%);
+    background-image: url(../../images/robotBG.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     padding-bottom: 50px;
 }
 
@@ -89,6 +92,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .ourRobotComp {
+        background-image: url(../../images/robotBGphone.svg);
+    }
+
     .robotCard {
         flex-direction: column-reverse;
     }

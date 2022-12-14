@@ -54,13 +54,36 @@
 
 @media only screen and (max-width: 800px) {
 
-    .navbar #close .navItem{
-        display: none;
+
+    .navbar #open{
+        display: inherit;
+
+        z-index: -2;
+        position: absolute;
+        top: 77px;
+        left: 0;
+        width: 100%;
+        height: 270px;
+
+        padding-top: 30px;
+
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #fff;
+
+        transition: all ease-in 0.1s ;
+        -webkit-transition: all ease-in 0.1s;
+        -moz-transition: all ease-in 0.1s;
+        -o-transition: all ease-in 0.1s;
+        
     }
     
-    .navbar #open .navItem {
-        display: inherit;
+    .navbar #close{
+        display: none;
+        height: 0;
     }
+
 
     .hamburger {
         display: inherit;
@@ -70,11 +93,11 @@
         padding-left: 20px;
     }
 
-    .navList {
-        flex-direction: column;
-        flex-wrap: wrap;
+    .navItem {
+        padding-bottom: 30px;
 
     }
+
 
     .navbar {
         flex-wrap: wrap;
