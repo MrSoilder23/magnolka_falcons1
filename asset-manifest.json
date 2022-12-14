@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/magnolka_falcons1/static/css/main.0ec63885.css",
+    "main.css": "/magnolka_falcons1/static/css/main.e8ec7aa4.css",
     "main.js": "/magnolka_falcons1/static/js/main.3adb2494.js",
     "static/js/787.a8d3448a.chunk.js": "/magnolka_falcons1/static/js/787.a8d3448a.chunk.js",
     "static/media/kerfus.png": "/magnolka_falcons1/static/media/kerfus.4b9eadde5272e89d1f82.png",
@@ -11,15 +11,17 @@
     "index.html": "/magnolka_falcons1/index.html",
     "static/media/travelPlanet.svg": "/magnolka_falcons1/static/media/travelPlanet.4f47ede0356f45e2501c292ca95c26a8.svg",
     "static/media/icons8-instagram.svg": "/magnolka_falcons1/static/media/icons8-instagram.359d7d3f391888ab26c855bd50b5e657.svg",
+    "static/media/robotBG.svg": "/magnolka_falcons1/static/media/robotBG.8c4561b9cfb2b3586bbd.svg",
+    "static/media/robotBGphone.svg": "/magnolka_falcons1/static/media/robotBGphone.60379ee33557ab32ca07.svg",
     "static/media/icons8-facebook.svg": "/magnolka_falcons1/static/media/icons8-facebook.bf9a8309d218ec6f4e2da6a27707d994.svg",
     "static/media/hourglass.svg": "/magnolka_falcons1/static/media/hourglass.458aef2d6947847a019fffe4c19dde97.svg",
     "static/media/hamburgerIcon.svg": "/magnolka_falcons1/static/media/hamburgerIcon.cedde82dadab608e2c2f3aec97b7a976.svg",
-    "main.0ec63885.css.map": "/magnolka_falcons1/static/css/main.0ec63885.css.map",
+    "main.e8ec7aa4.css.map": "/magnolka_falcons1/static/css/main.e8ec7aa4.css.map",
     "main.3adb2494.js.map": "/magnolka_falcons1/static/js/main.3adb2494.js.map",
     "787.a8d3448a.chunk.js.map": "/magnolka_falcons1/static/js/787.a8d3448a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ec63885.css",
+    "static/css/main.e8ec7aa4.css",
     "static/js/main.3adb2494.js"
   ]
 }
