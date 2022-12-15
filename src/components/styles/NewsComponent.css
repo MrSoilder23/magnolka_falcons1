@@ -49,6 +49,7 @@
     margin-bottom: 5px;
     color: #bfbfbf;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -56,15 +57,17 @@
     filter: invert(21%) sepia(66%) saturate(3214%) hue-rotate(188deg) brightness(84%) contrast(94%);
 }
 
-.newsText h3 {
+.newsPropText {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
+    color: #334B48;
+
 }
 
 .newsImg {
     display: flex;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 .newsImg img {

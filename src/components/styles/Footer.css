@@ -1,16 +1,27 @@
 .footer {
-    height: 30rem;
+    height: 28rem;
     background-color: #085a91;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
 .footer h1 {
     padding-bottom: 20px;
     color: #F1F1E6;
+}
+
+.footer h3 {
+    position: absolute;
+    bottom: 0;
+    
+    padding-bottom: 10px;
+    color: #053a5d;
+    font-size: 0.7em;
 }
 
 .icons {
@@ -25,6 +36,9 @@
     background-color: #075183;
     border-radius: 50px;
     transition: ease-in 0.4s;
+    -o-transition: ease-in 0.4s;
+    -moz-transition: ease-in 0.4s;
+    -webkit-transition: ease-in 0.4s;
 }
 
 .icons img::after {

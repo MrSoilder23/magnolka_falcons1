@@ -17,7 +17,7 @@ function NewsCard(props) {
         </Link>
         </div>
         <h3 className='newsDate'>{props.date}</h3>
-        <h3>{props.text}</h3>
+        <h3 className='newsPropText'>{props.text}</h3>
       </div>
     </div>
   )

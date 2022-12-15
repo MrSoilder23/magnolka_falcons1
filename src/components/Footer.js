@@ -21,6 +21,9 @@ function Footer() {
           <img src={github} alt="github" className='socialIcons'/>
         </Link>
       </div>
+      <h3>
+        Site design &copy; 2022 Magnolka Falcons
+      </h3>
     </div>
   )
 }
