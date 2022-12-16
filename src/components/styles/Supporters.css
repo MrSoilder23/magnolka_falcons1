@@ -1,0 +1,25 @@
+.supporters {
+    background-color: #fff;
+    padding-top: 40px;
+}
+
+.supportersBG {
+    background-color: #085A91;
+    transform: skewY(-3deg);
+    padding: 50px;
+    height: 20rem;
+}
+
+.supportersComp {
+    transform: skewY(3deg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.supportersComp h1 {
+    font-size: 2.5rem;
+    color: #F1F1E6;
+}
