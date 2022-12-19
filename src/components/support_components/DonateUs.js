@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/DonateUs.css'
+import { Link } from 'react-router-dom'
 import kitku from '../../images/dabloonCat.jpg'
 
 function DonateUs() {
@@ -11,6 +12,9 @@ function DonateUs() {
                 <h2>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias obcaecati illum dolorum repellat eos, sed praesentium natus consequuntur! Autem, optio!
                 </h2>
+                <div className="donateBtnFrame">
+                    <Link to='/wsparcie' className='donateButton' >Zrzutka</Link>
+                </div>
             </div>
         </div>
         <div className="donateRSide">
