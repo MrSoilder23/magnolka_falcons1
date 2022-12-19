@@ -1,93 +1,76 @@
-.aboutUsComp {
+.teamInfoComp {
     padding: 50px;
     background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
 
+.teamLSide {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     
-}
-
-.aboutUsImg {
-    height: 23rem;
-    border-radius: 1.9em;
-}
-
-.rightSide {
     width: 700px;
     padding-left: 30px;
 }
 
-.rightSide h2 {
+.teamLSide h2 {
     font-weight: 800;
     font-size: 2.5rem;
     color: #085A91;
     padding-bottom: 20px;
-    padding-top: 30px;
 
 }
 
-.rightSide h3 {
+.teamLSide h3 {
     font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     color: #334B48;
-
 }
 
-.aboutBtnFrame {
-    display: flex;
-    margin-top: 40px;
-}
-
-.aboutButton {
-    font-size: 1.4rem;
-    color: #fff;
-    background-color: #085a91;
+.teamRSide img {
+    height: 23rem;
     border-radius: 1.9em;
-    border-width: 0;
-    padding:0.6em 1.5em;
-    margin: 0 0.3em 0.3em 0;
-    text-align: center;
-    transition: ease-in 0.3s;
-}
-
-.aboutButton:hover {
-    background-color: #548CC7;
 }
 
 @media only screen and (max-width: 1200px) {
-    .aboutUsImg {
+    .teamRSide img {
         width: 90%;
         object-fit: cover;
+    }
+    .teamLSide {
+        padding-right: 30px;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .aboutUsComp {
-        flex-direction: column;
+    .teamInfoComp {
+        flex-direction: column-reverse;
     }
 
-    .leftSide {
+    .teamRSide {
         width: 100%;
     }
 
-    .aboutUsImg {
+    .teamRSide img {
         height: 15rem;
         width: 100%;
         object-fit: cover;
     }
 
-    .rightSide {
+    .teamLSide {
         width: 100%;
+        padding-top: 20px;
         padding-left: 0;
     }
 
-    .rightSide h2 {
+    .teamLSide h2 {
         font-size: 2rem;
     }
 
-    .rightSide h3 {
+    .teamLSide h3 {
         font-size: 1.3rem;
     }
 }

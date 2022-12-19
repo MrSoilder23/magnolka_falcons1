@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
 
+    background-color: #f2f2f2;
 }
 
 .donateLSide {
@@ -54,4 +55,52 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
+    vertical-align:top;
+
+}
+
+.donateBtnFrame {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.donateButton {
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #085a91;
+    border-radius: 1.9em;
+    border-width: 0;
+    padding:0.6em 1.5em;
+    margin: 0 0.3em 0.3em 0;
+    text-align: center;
+    transition: ease-in 0.3s;
+}
+
+.donateButton:hover {
+    background-color: #548CC7;
+}
+
+@media only screen and (max-width: 1200px) {
+    .donateText {
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .donateUs {
+        flex-direction: column-reverse;
+    }
+
+    .donateRSide {
+        width: 100%;
+        height: 20rem;
+    }
+    
+    .donateLSide {
+        background-color: #f2f2f2;
+        width: 100%;
+    }
 }

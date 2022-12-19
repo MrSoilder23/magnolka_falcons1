@@ -1,11 +1,23 @@
 .supporters {
-    background-color: #fff;
-    padding-top: 40px;
+    background-color: #f2f2f2;
 }
 
 .supportersBG {
-    background-color: #085A91;
+
     transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+
+    transform-origin: right;
+    -o-transform-origin: right;
+    -moz-transform-origin: right;
+    -webkit-transform-origin: right;
+    -ms-transform-origin: right;
+
+    background-image: url(../../images/sponsorsBG.svg);
+
     padding: 50px;
     height: 20rem;
 }
@@ -21,5 +33,5 @@
 
 .supportersComp h1 {
     font-size: 2.5rem;
-    color: #F1F1E6;
+    color: #f2f2f2;
 }

@@ -34,7 +34,7 @@
 
 .cardComp {
     background-color: #f2f2f2;
-    border-radius: 25px;
+    border-radius: 2.5em; /* or 25px */
     width: 330px;
 
     display: flex;
