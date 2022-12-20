@@ -17,7 +17,7 @@ function AboutUsComponent() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus fugit at obcaecati, non recusandae, cumque dicta aliquid voluptas magni sint commodi exercitationem expedita ab libero veritatis assumenda omnis incidunt.
             </h3>
             <div className="aboutBtnFrame">
-                <Link to='/about' className='aboutButton' >Więcej</Link>
+                <Link to='/druzyna' className='aboutButton' >Więcej</Link>
             </div>
         </div>
     </div>

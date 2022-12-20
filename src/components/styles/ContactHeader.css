@@ -1,0 +1,33 @@
+.contactHeader {
+    display: flex;
+    align-items: center;
+
+    background-color: #085a91;
+    background-image: url(../../images/headerBG.svg);
+    background-position: bottom;
+    
+    height: 14rem;
+}
+
+.contactHeader h1 {
+    font-size: 4.2rem;
+    font-weight: 900;
+    color: #F1F1E6;
+
+    padding-left: 300px;
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .contactHeader {
+        height: 12rem;
+        justify-content: center;
+    }    
+    .contactHeader h1 {
+        font-size: 3rem;
+        padding-left: 0;
+
+        text-align: center;
+    }
+}

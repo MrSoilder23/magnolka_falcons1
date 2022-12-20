@@ -1,0 +1,44 @@
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f2f2f2;
+}
+
+.contactInfo h1 {
+    font-size: 2.5rem;
+    color: #085a91;
+    font-weight: 800;
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+}
+
+.info h3 {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #334B48;
+}
+
+.info div {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .info {
+        flex-direction: column;
+    }
+}
